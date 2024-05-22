@@ -22,9 +22,30 @@ namespace sistema_biblioteca.Models
 
         public void EmprestarLivros(Livros livros)
         {
-            if(LivrosEmprestados.Count >= 3)
+            if (LivrosEmprestados.Count >= 3)
             {
-                throw new Exception ("O usuario já atingiu o numero máximo de livros emprestados.");
+                throw new Exception("O usuario já atingiu o numero máximo de livros emprestados.");
+            }
+            LivrosEmprestados.Add(livros);
+            livros.MarcarComoEmprestado();
+        }
+
+        public void DevolverLivro(Livros livros)
+        {
+            if (LivrosEmprestados.Contains(livros))
+            {
+                throw new Exception("Este livro nao esta na lista de livros emprestados.");
+            }
+            LivrosEmprestados.Remove(livros);
+            livros.MarcarComoDevolvido();
+        }
+
+        public void ExibirLivrosEmprestados()
+        {
+            Console.WriteLine($"Livros emprestados pro nome {Nome}:");
+            foreach (var livros in LivrosEmprestados)
+            {
+                Console.WriteLine(livros.Titulo);
             }
         }
     }

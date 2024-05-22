@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = sistema_biblioteca
-build_property.ProjectDir = C:\Users\lucas.unzer\Documents\unzer\carlao\segundo_ano\back\sistema_biblioteca\
+build_property.ProjectDir = C:\Users\lucas.unzer\Documents\unzer\CloneRepository\Sistema_Biblioteca\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

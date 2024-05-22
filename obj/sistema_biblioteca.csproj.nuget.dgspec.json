@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucas.unzer\\Documents\\unzer\\carlao\\segundo_ano\\back\\sistema_biblioteca\\sistema_biblioteca.csproj": {}
+    "C:\\Users\\lucas.unzer\\Documents\\unzer\\CloneRepository\\Sistema_Biblioteca\\sistema_biblioteca.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucas.unzer\\Documents\\unzer\\carlao\\segundo_ano\\back\\sistema_biblioteca\\sistema_biblioteca.csproj": {
+    "C:\\Users\\lucas.unzer\\Documents\\unzer\\CloneRepository\\Sistema_Biblioteca\\sistema_biblioteca.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucas.unzer\\Documents\\unzer\\carlao\\segundo_ano\\back\\sistema_biblioteca\\sistema_biblioteca.csproj",
+        "projectUniqueName": "C:\\Users\\lucas.unzer\\Documents\\unzer\\CloneRepository\\Sistema_Biblioteca\\sistema_biblioteca.csproj",
         "projectName": "sistema_biblioteca",
-        "projectPath": "C:\\Users\\lucas.unzer\\Documents\\unzer\\carlao\\segundo_ano\\back\\sistema_biblioteca\\sistema_biblioteca.csproj",
+        "projectPath": "C:\\Users\\lucas.unzer\\Documents\\unzer\\CloneRepository\\Sistema_Biblioteca\\sistema_biblioteca.csproj",
         "packagesPath": "C:\\Users\\lucas.unzer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucas.unzer\\Documents\\unzer\\carlao\\segundo_ano\\back\\sistema_biblioteca\\obj\\",
+        "outputPath": "C:\\Users\\lucas.unzer\\Documents\\unzer\\CloneRepository\\Sistema_Biblioteca\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucas.unzer\\AppData\\Roaming\\NuGet\\NuGet.Config"
